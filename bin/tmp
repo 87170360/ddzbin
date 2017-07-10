@@ -1,0 +1,1181 @@
+uid_start=112,uid_num=1,server_ip=127.0.0.1,port=8500
+init robotes client 112
+sendDataStyled: [{
+   "cmd" : 1001,
+   "skey" : "fsdffdf",
+   "uid" : 112
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2000,
+   "code" : 0,
+   "msgid" : 1001,
+   "seatid" : 2,
+   "tid" : 1,
+   "userinfo" : [
+      {
+         "avatar" : "image_10.png",
+         "money" : 28776,
+         "name" : "LG-F200L",
+         "seatid" : 0,
+         "state" : 2,
+         "uid" : 10,
+         "vlevel" : 0
+      },
+      {
+         "avatar" : "image_11.png",
+         "money" : 21005,
+         "name" : "ZTE U889",
+         "seatid" : 1,
+         "state" : 2,
+         "uid" : 11,
+         "vlevel" : 0
+      }
+   ]
+}
+]
+sendDataStyled: [{
+   "cmd" : 1002
+}
+]
+WriteData To Server
+recvData: [{
+   "card" : [ 9, 21, 59, 42, 41, 5, 1, 53, 0, 50, 60, 19, 34, 58, 6, 13, 23 ],
+   "cmd" : 2002,
+   "cur_id" : 112,
+   "show_time" : 3,
+   "time" : 3
+}
+]
+handle call, showtimer active after 3 second.
+showtimer active.
+sendDataStyled: [{
+   "cmd" : 1003,
+   "score" : 1
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2003,
+   "cur_id" : 10,
+   "pre_id" : 112,
+   "score" : 1,
+   "time" : 3
+}
+]
+recvData: [{
+   "cmd" : 2003,
+   "cur_id" : 11,
+   "pre_id" : 10,
+   "score" : 2,
+   "time" : 3
+}
+]
+recvData: [{
+   "card" : [ 10, 52, 55 ],
+   "cmd" : 2004,
+   "lord" : 11,
+   "score" : 3,
+   "time" : 3
+}
+]
+sendDataStyled: [{
+   "cmd" : 1004,
+   "count" : 1
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2006,
+   "count" : 1,
+   "cur_id" : 11,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2006,
+   "count" : 2,
+   "cur_id" : 11,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 55 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : false,
+   "out_id" : 11,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "card" : [ 55 ],
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2006,
+   "count" : 3,
+   "cur_id" : 11,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 55 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : false,
+   "out_id" : 11,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "card" : [ 55 ],
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 112,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "card" : [ 23 ],
+   "cmd" : 1005,
+   "keep" : false
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 112,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "card" : [ 23 ],
+   "cmd" : 1005,
+   "keep" : false
+}
+]
+WriteData To Server
+recvData: [{
+   "card" : [ 23 ],
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : false,
+   "out_id" : 112,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 16 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 16 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 112,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 112,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 112,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : true,
+   "out_id" : 11,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 37 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 49 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 49 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 29 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 29 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 54 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 54 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 51 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 51 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 24 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 24 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 12 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 12 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 11 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 11 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 40 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 40 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : true
+}
+]
+WriteData To Server
+recvData: [{
+   "cmd" : 2007,
+   "cur_id" : 10,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 112,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 45 ],
+   "cmd" : 2007,
+   "cur_id" : 11,
+   "keep" : false,
+   "out_id" : 10,
+   "pre_id" : 10,
+   "time" : 10
+}
+]
+recvData: [{
+   "card" : [ 45 ],
+   "cmd" : 2007,
+   "cur_id" : 112,
+   "keep" : true,
+   "out_id" : 10,
+   "pre_id" : 11,
+   "time" : 10
+}
+]
+sendDataStyled: [{
+   "cmd" : 1005,
+   "keep" : tru

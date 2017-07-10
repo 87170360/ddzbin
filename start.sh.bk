@@ -1,0 +1,36 @@
+conf_dir="./conf/"
+pid_dir="./pid/"
+log_dir="./log/"
+
+bin_dir="./bin/"
+crash_dir="./crash"
+
+normal_bull_low_nu=10
+grab_bull_low_nu=10
+
+output_dev="crash/run.csh"
+
+#check dir exist 
+for dir in $conf_dir $pid_dir $log_dir $crash_dir;
+do
+	if [ ! -d "$dir" ]
+	then 
+		echo "Create Dir $dir"
+		mkdir $dir 
+	fi
+done 
+
+#start  normal bull 
+for ((i=0; i<$normal_bull_low_nu; i++)) 
+do 
+	echo "Start ${bin_dir}normal_bull -f  ${conf_dir}normal_bull_low${i}.conf"
+	${bin_dir}normal_bull -f ${conf_dir}normal_bull_low${i}.conf>>${output_dev} &
+done 
+
+#start  grab bull 
+for ((i=0; i<$grab_bull_low_nu; i++)) 
+do 
+	echo "Start ${bin_dir}grab_bull -f  ${conf_dir}normal_bull_low${i}.conf"
+	${bin_dir}grab_bull -f ${conf_dir}grab_bull_low${i}.conf>>${output_dev} &
+done 
+

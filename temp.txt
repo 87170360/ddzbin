@@ -1,0 +1,122 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 May25 ?        00:00:21 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2     0  0 May25 ?        00:00:00 [kthreadd]
+root         3     2  0 May25 ?        00:00:01 [ksoftirqd/0]
+root         5     2  0 May25 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 May25 ?        00:00:01 [migration/0]
+root         8     2  0 May25 ?        00:00:00 [rcu_bh]
+root         9     2  0 May25 ?        00:26:08 [rcu_sched]
+root        10     2  0 May25 ?        00:00:09 [watchdog/0]
+root        11     2  0 May25 ?        00:00:07 [watchdog/1]
+root        12     2  0 May25 ?        00:00:01 [migration/1]
+root        13     2  0 May25 ?        00:00:06 [ksoftirqd/1]
+root        15     2  0 May25 ?        00:00:00 [kworker/1:0H]
+root        17     2  0 May25 ?        00:00:00 [khelper]
+root        18     2  0 May25 ?        00:00:00 [kdevtmpfs]
+root        19     2  0 May25 ?        00:00:00 [netns]
+root        20     2  0 May25 ?        00:00:01 [khungtaskd]
+root        21     2  0 May25 ?        00:00:00 [writeback]
+root        22     2  0 May25 ?        00:00:00 [kintegrityd]
+root        23     2  0 May25 ?        00:00:00 [bioset]
+root        24     2  0 May25 ?        00:00:00 [kblockd]
+root        25     2  0 May25 ?        00:00:00 [md]
+root        31     2  0 May25 ?        00:00:14 [kswapd0]
+root        32     2  0 May25 ?        00:00:00 [ksmd]
+root        33     2  0 May25 ?        00:00:22 [khugepaged]
+root        34     2  0 May25 ?        00:00:00 [fsnotify_mark]
+root        35     2  0 May25 ?        00:00:00 [crypto]
+root        43     2  0 May25 ?        00:00:00 [kthrotld]
+root        45     2  0 May25 ?        00:00:00 [kmpath_rdacd]
+root        47     2  0 May25 ?        00:00:00 [kpsmoused]
+root        49     2  0 May25 ?        00:00:00 [ipv6_addrconf]
+root        68     2  0 May25 ?        00:00:00 [deferwq]
+root        98     2  0 May25 ?        00:00:02 [kauditd]
+root       230     2  0 May25 ?        00:00:00 [ata_sff]
+root       231     2  0 May25 ?        00:00:00 [scsi_eh_0]
+root       232     2  0 May25 ?        00:00:00 [scsi_tmf_0]
+root       233     2  0 May25 ?        00:00:00 [scsi_eh_1]
+root       234     2  0 May25 ?        00:00:00 [scsi_tmf_1]
+root       245     2  0 May25 ?        00:00:00 [ttm_swap]
+root       257     2  0 May25 ?        00:00:19 [kworker/1:1H]
+root       264     2  0 May25 ?        00:00:03 [kworker/0:1H]
+root       275     2  0 May25 ?        00:01:16 [jbd2/vda1-8]
+root       276     2  0 May25 ?        00:00:00 [ext4-rsv-conver]
+root       348     1  0 May25 ?        00:00:24 /usr/lib/systemd/systemd-journald
+root       358     1  0 May25 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root       393     2  0 May25 ?        00:00:00 [vballoon]
+root       448     1  0 May25 ?        00:00:08 /sbin/auditd -n
+root       473     1  0 May25 ?        00:02:08 /usr/sbin/irqbalance --foreground
+dbus       475     1  0 May25 ?        00:00:16 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       524     1  0 May25 ?        00:00:09 /usr/lib/systemd/systemd-logind
+root       525     1  0 May25 ?        00:00:09 /usr/sbin/rsyslogd -n
+root       528     1  0 May25 ?        00:00:04 /usr/sbin/crond -n
+root       530     1  0 May25 ?        00:00:00 /usr/sbin/atd -f
+root       542     1  0 May25 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root       829     1  0 May25 ?        00:05:15 /usr/bin/python -Es /usr/sbin/tuned -l -P
+ntp       1449     1  0 May25 ?        00:00:12 /usr/sbin/ntpd -u ntp:ntp -g
+root      1930     1  0 May25 ?        00:16:30 /usr/local/cloudmonitor/wrapper/bin/./wrapper /usr/local/cloudmonitor/wrapper/bin/../conf/wrapper.conf wrapper.syslog.ident=cloudmonitor wrapper.pidfile=/usr/local/cloudmonitor/wrapper/bin/./cloudmonitor.pid wrapper.daemonize=TRUE wrapper.name=cloudmonitor wrapper.displayname=cloudmonitor wrapper.statusfile=/usr/local/cloudmonitor/wrapper/bin/./cloudmonitor.status wrapper.java.statusfile=/usr/local/cloudmonitor/wrapper/bin/./cloudmonitor.java.status wrapper.lockfile=/var/lock/subsys/cloudmonitor wrapper.script.version=3.5.27
+root      2758  1930  0 May25 ?        03:21:54 /usr/local/cloudmonitor/jre/bin/java -Djava.compiler=none -XX:-UseGCOverheadLimit -XX:NewRatio=1 -XX:SurvivorRatio=8 -XX:+UseSerialGC -Djava.io.tmpdir=../../tmp -Xms16m -Xmx32m -Djava.library.path=../lib:../../lib -classpath ../lib/wrappertest.jar:../lib/wrapper.jar:../../config:../../lib/agent-commons-1.1.60.jar:../../lib/agent-core-1.1.60.jar:../../lib/agent-model-1.1.60.jar:../../lib/aopalliance-1.0.jar:../../lib/commons-logging-1.2.jar:../../lib/commons-net-3.5.jar:../../lib/gson-2.4.jar:../../lib/log4j-1.2.16.jar:../../lib/sigar-1.6.5.132.jar:../../lib/spring-aop-4.2.4.RELEASE.jar:../../lib/spring-beans-4.2.4.RELEASE.jar:../../lib/spring-context-4.2.4.RELEASE.jar:../../lib/spring-core-4.2.4.RELEASE.jar:../../lib/spring-expression-4.2.4.RELEASE.jar:../../lib/system-plugin-1.1.60.jar:../../lib/updater-1.1.60-jar-with-dependencies.jar -Dwrapper.key=l9GP_cpPTcmmabDo -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.disable_console_input=TRUE -Dwrapper.pid=1930 -Dwrapper.version=3.5.27 -Dwrapper.native_library=wrapper -Dwrapper.arch=x86 -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 com.aliyun.tianji.cloudmonitor.Application
+root      5598     1  0 Jul03 ?        00:02:10 /usr/local/aegis/aegis_update/AliYunDunUpdate
+root      5626     1  0 Jul03 ?        00:12:09 /usr/local/aegis/aegis_client/aegis_10_25/AliYunDun
+root      8278     1  0 May25 ?        00:13:02 /usr/sbin/aliyun-service
+root     11387     1  0 Jul06 ?        00:00:16 ./bin/hlddz -f ./conf/hlddz_low0.conf
+root     11388     1  0 Jul06 ?        00:00:29 ./bin/hlddz -f ./conf/hlddz_middle0.conf
+root     11389     1  0 Jul06 ?        00:00:20 ./bin/hlddz -f ./conf/hlddz_high0.conf
+root     11390     1  0 Jul06 ?        00:00:28 ./bin/hlddz -f ./conf/hlddz_master0.conf
+root     11391     1  0 Jul06 ?        00:00:00 ./bin/lzddz -f ./conf/lzddz_low0.conf
+root     11392     1  0 Jul06 ?        00:00:00 ./bin/bsddz -f ./conf/bsddz_low0.conf
+root     11394     1  0 Jul06 ?        00:00:14 ./bin/hlddz_robot -f ./bin/hlddz_robot_low.conf
+root     11395     1  0 Jul06 ?        00:00:24 ./bin/hlddz_robot -f ./bin/hlddz_robot_middle.conf
+root     11396     1  0 Jul06 ?        00:00:17 ./bin/hlddz_robot -f ./bin/hlddz_robot_high.conf
+root     11397     1  0 Jul06 ?        00:00:24 ./bin/hlddz_robot -f ./bin/hlddz_robot_master.conf
+git      12843     1  0 Jul06 ?        00:01:22 /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el7_3.x86_64/bin/java -jar ddz-consumer5801-0.1.0.jar --spring.profiles.active=prod
+git      12889     1  0 Jul06 ?        00:01:35 /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el7_3.x86_64/bin/java -jar ddz-provider5601-0.1.0.jar --spring.profiles.active=prod
+root     13030     2  0 Jul06 ?        00:00:06 [kworker/0:0]
+root     18127 19287  0 11:30 ?        00:00:00 sshd: root@pts/1
+root     18129 18127  0 11:30 pts/1    00:00:00 -bash
+root     19287     1  0 Jun21 ?        00:00:02 /usr/sbin/sshd
+root     19930     2  0 15:27 ?        00:00:00 [kworker/0:1]
+root     19980 19287  0 15:28 ?        00:00:00 sshd: root@pts/2
+root     19984 19980  0 15:29 pts/2    00:00:00 -bash
+root     20025     2  0 Jun21 ?        00:00:14 [kworker/u4:1]
+root     20236 19287  0 15:56 ?        00:00:01 sshd: root@notty
+root     20239 20236  0 15:56 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     20257 20236  0 15:59 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     20338     2  0 16:01 ?        00:00:00 [kworker/1:1]
+root     20644     1  0 16:15 pts/2    00:00:16 /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el7_3.x86_64/bin/java -Djava.util.logging.config.file=/usr/local/tomcat/apache-tomcat-8.5.16/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -classpath /usr/local/tomcat/apache-tomcat-8.5.16/bin/bootstrap.jar:/usr/local/tomcat/apache-tomcat-8.5.16/bin/tomcat-juli.jar -Dcatalina.base=/usr/local/tomcat/apache-tomcat-8.5.16 -Dcatalina.home=/usr/local/tomcat/apache-tomcat-8.5.16 -Djava.io.tmpdir=/usr/local/tomcat/apache-tomcat-8.5.16/temp org.apache.catalina.startup.Bootstrap start
+root     20737 19287  0 16:21 ?        00:00:00 sshd: root@pts/3
+root     20739 20737  0 16:21 pts/3    00:00:00 -bash
+root     21265     2  0 16:36 ?        00:00:00 [kworker/1:2]
+root     21526 19287  0 16:41 ?        00:00:00 sshd: root@pts/4
+root     21528 21526  0 16:41 pts/4    00:00:00 -bash
+root     21597     2  0 16:41 ?        00:00:00 [kworker/1:0]
+nginx    21635 30075  0 16:42 ?        00:00:00 nginx: worker process
+nginx    21636 30075  0 16:42 ?        00:00:00 nginx: worker process
+root     21637 21528  1 16:42 pts/4    00:00:00 vim nginx.conf
+root     21639 21637  1 16:42 ?        00:00:00 /usr/bin/python2 /root/.vim/bundle/YouCompleteMe/python/ycm/../../third_party/ycmd/ycmd --port=33075 --options_file=/tmp/tmpUAQ_C9 --log=info --idle_suicide_seconds=10800 --stdout=/tmp/ycmd_33075_stdout_bTNE_9.log --stderr=/tmp/ycmd_33075_stderr_Tx2gSI.log
+root     21692 20739  0 16:43 pts/3    00:00:00 /bin/bash ./status.sh
+root     21694 21692  0 16:43 pts/3    00:00:00 ps -Af
+polkitd  24518     1  0 May26 ?        00:00:06 /usr/lib/polkit-1/polkitd --no-debug
+git      24684     1  0 Jun21 ?        01:12:26 /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el7_3.x86_64/bin/java -jar eureka-server5701-0.1.0.jar --spring.profiles.active=prod
+root     26659     1  0 Jun21 ?        00:06:00 ping baidu.com
+root     26664     1  0 Jun21 ?        00:06:18 ping baidu.com
+root     26720     1  0 Jun21 ?        00:05:59 ping baidu.com
+root     26722     1  0 Jun21 ?        00:06:49 ping baidu.com
+root     26723     1  0 Jun21 ?        00:06:01 ping baidu.com
+root     26724     1  0 Jun21 ?        00:06:01 ping baidu.com
+root     29202     2  0 Jun27 ?        00:00:00 [kworker/u4:0]
+mysql    29667     1  0 Jun21 ?        00:00:00 /bin/sh /usr/bin/mysqld_safe --basedir=/usr
+mysql    29834 29667  0 Jun21 ?        00:07:03 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --log-error=/var/log/mysqld.log --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/lib/mysql/mysql.sock
+root     30075     1  0 May27 ?        00:00:00 nginx: master process nginx
+root     31138     1  0 May27 ?        00:14:05 /usr/local/redis/bin/redis-server *:6000
+root     31142     1  0 May27 ?        00:14:59 /usr/local/redis/bin/redis-server *:6001
+root     31146     1  0 May27 ?        00:14:12 /usr/local/redis/bin/redis-server *:6002
+root     31150     1  0 May27 ?        00:13:58 /usr/local/redis/bin/redis-server *:6003
+root     31154     1  0 May27 ?        00:14:13 /usr/local/redis/bin/redis-server *:6004
+root     31158     1  0 May27 ?        00:14:24 /usr/local/redis/bin/redis-server *:6005
+root     31160     1  0 May27 ?        00:14:21 /usr/local/redis/bin/redis-server *:6006
+root     31164     1  0 May27 ?        00:14:12 /usr/local/redis/bin/redis-server *:6007
+root     31170     1  0 May27 ?        00:14:18 /usr/local/redis/bin/redis-server *:6008
+root     31174     1  0 May27 ?        00:27:17 /usr/local/redis/bin/redis-server *:6009
+root     31178     1  0 May27 ?        00:32:24 /usr/local/redis/bin/redis-server *:6100
+root     31182     1  0 May27 ?        00:14:04 /usr/local/redis/bin/redis-server *:6200
